@@ -101,8 +101,8 @@ hr {
     margin-bottom: 20px;
 }
 
-.text-dark {
-  color: #7F1911;
+.text-theme {
+  color: #7F1911!important;
 }
 
 .important-paragraph {
@@ -560,6 +560,60 @@ transform: translateX(0);
 /*------------------------------------*\
     5. Join Us
 \*------------------------------------*/
+
+.center {
+  position: relative;
+  max-width: 656px;
+  margin: 0 auto;
+}
+
+.layer {
+  position: absolute;
+}
+
+.layer1 {
+  z-index: 1;
+  margin-left: 492px;
+}
+
+.layer2 {
+  z-index: 2;
+  margin-left: 369px;
+}
+
+.layer3 {
+  z-index: 3;
+  margin-left: 246px;
+}
+
+.layer4 {
+  z-index: 4;
+  margin-left: 123px;
+}
+
+.layer5 {
+  z-index: 5;
+}
+
+.text-layer-1 {
+  margin-left: 508px;
+}
+
+.text-layer-2 {
+  margin-left: 395px;
+}
+
+.text-layer-3 {
+  margin-left: 272px;
+}
+
+.text-layer-4 {
+  margin-left: 149px;
+}
+
+.text-layer-5 {
+  margin-left: 31px;
+}
 
 .teams-image {
   border-radius: 0 .75rem .75rem 0;
