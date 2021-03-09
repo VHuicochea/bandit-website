@@ -16,6 +16,18 @@
 
 */
 
+/* ------------------  Navbar Scroll ------------------ */
+$(function () {
+    $(window).on('scroll', function () {
+        if ( $(window).scrollTop() > 10 ) {
+            $('.navbar').addClass('test');
+        } else {
+            $('.navbar').removeClass('test');
+        }
+    });
+});
+
+/* ------------------  Fade In ------------------ */
 $(document).ready(function(){
 
     /* Fades in page on load */

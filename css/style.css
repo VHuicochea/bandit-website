@@ -292,6 +292,73 @@ hr {
 }
 
 /*
+ * Red Header
+ */
+
+.navbar-red {
+  background-color: #7F1911;
+  box-shadow: 0 2px 2px 0px rgba(0,0,0,.4);
+}
+
+.navbar-red .nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: .25rem solid transparent;
+}
+
+.navbar-red .nav-link:hover,
+.navbar-red.nav-link:focus {
+  color: #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, .50);
+}
+
+.navbar-red .nav-item {
+    margin-right: 20px;
+}
+
+.navbar-red .navbar-nav > li {
+    float: left;
+    position: relative;
+}
+
+.navbar-red .navbar-nav .active a::after {
+    border-bottom: 2px solid #fff;
+    bottom: -1px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.navbar-red .navbar-toggler-icon {
+    color: #fff;
+    font-size: 40px;
+}
+
+/*
+ * On-Scroll Header
+ */
+
+.navbar-scroll {
+  background-color: #ffffff;
+  transition: all 0.4s;
+}
+
+.test {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-scroll .navbar-nav .active a::after {
+  border-bottom: 2px solid #7F1911;
+  bottom: -1px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+/*
  * Home Header
  */
  .masthead {
