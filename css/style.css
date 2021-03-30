@@ -870,4 +870,14 @@ div.flex-column div.cover-image img {
   h1 {
     font-size: 52px;
   }
+  header div.inner img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 172px;
+    height: auto;
+    display: block;
+  }
+  header a.masthead-brand {
+    margin-right: 0;
+  }
 }
