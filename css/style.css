@@ -859,6 +859,10 @@ div.flex-column div.cover-image img {
     height: auto;
     display: block;
   }
+
+  header a.masthead-brand {
+    margin-right: 0;
+  }
 }
 
 /* Hand-held devices */
@@ -866,8 +870,14 @@ div.flex-column div.cover-image img {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 495px) {
+  
+  a.nav-link {
+    font-size: 24px;
+  }
   a:nth-of-type(5) {
+    display: block;
+    width: 74px;
     margin-left: 0!important;
   }
   main.inner.cover {
@@ -886,5 +896,17 @@ div.flex-column div.cover-image img {
   }
   header a.masthead-brand {
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  a:nth-of-type(4) {
+    
+    margin-left: 0!important;
+  }
+
+  a:nth-of-type(5) {
+    
+    margin-left: 2rem!important;
   }
 }
