@@ -859,6 +859,8 @@ div.flex-column div.cover-image img {
 
 }
 
-@media screen and (max-width: 425px) {
-
+@media screen and (max-width: 500px) {
+  a.nav-link.light-text.contact {
+    margin-left: 0!important;
+  }
 }
