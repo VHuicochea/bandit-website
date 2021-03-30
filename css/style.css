@@ -866,4 +866,8 @@ div.flex-column div.cover-image img {
   main.inner.cover {
     padding: 0 3rem;
   }
+
+  h1 {
+    font-size: 52px;
+  }
 }
