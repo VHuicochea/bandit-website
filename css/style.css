@@ -870,15 +870,20 @@ div.flex-column div.cover-image img {
 
 }
 
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 425px) {
   
   a.nav-link {
-    font-size: 24px;
+    font-size: 26px;
+    width: auto;
+  }
+  a:nth-of-type(4) {
+    
+    margin-left: 0!important;
   }
   a:nth-of-type(5) {
     display: block;
-    width: 74px;
-    margin-left: 0!important;
+   
+    /* margin-left: 0!important; */
   }
   main.inner.cover {
     padding: 0 3rem;
