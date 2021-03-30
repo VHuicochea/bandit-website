@@ -863,4 +863,7 @@ div.flex-column div.cover-image img {
   a.nav-link.light-text.contact {
     margin-left: 0!important;
   }
+  main.inner.cover {
+    padding: 0 3rem;
+  }
 }
