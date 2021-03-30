@@ -852,6 +852,13 @@ div.flex-column div.cover-image img {
     padding-left: 5rem;
     padding-right: 5rem;
   }
+  header div.inner img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 172px;
+    height: auto;
+    display: block;
+  }
 }
 
 /* Hand-held devices */
@@ -860,7 +867,7 @@ div.flex-column div.cover-image img {
 }
 
 @media screen and (max-width: 500px) {
-  a.nav-link.light-text.contact {
+  a:nth-of-type(5) {
     margin-left: 0!important;
   }
   main.inner.cover {
