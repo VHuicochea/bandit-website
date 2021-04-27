@@ -25,6 +25,10 @@
  3.  Navigation Bar
  4.  Footer
  5.	 About Us
+ 6.  Join Us
+ 7.  Contact Us
+ 8.  Home
+ 9.  Media Queries
 
 
 /*------------------------------------*\
@@ -222,6 +226,21 @@ hr {
   
 }
 
+.btn-dark {
+  background-color: #7F1911;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition-duration: 0.4s;
+  
+  border-radius: 8px;
+}
+
+.btn-dark:hover {
+  background-color: #ffffff!important;
+  color: #7F1911!important;
+  border: 1px solid #7F1911!important;
+}
+
 .btn-sm {
   background-color: #ffffff;
   color: #7F1911;
@@ -242,7 +261,7 @@ hr {
 }
 
 /*------------------------------------*\
-    2. NAVIGATION BAR
+    3. NAVIGATION BAR
 \*------------------------------------*/
 
 /*
@@ -401,7 +420,7 @@ hr {
 }
 
 /*------------------------------------*\
-    3. FOOTER
+    4. FOOTER
 \*------------------------------------*/
 
 .footer-custom {
@@ -456,7 +475,7 @@ hr {
 }
 
 /*------------------------------------*\
-    4. ABOUT US
+    5. ABOUT US
 \*------------------------------------*/
 
 .teams > li {
@@ -558,7 +577,7 @@ transform: translateX(0);
 }
 
 /*------------------------------------*\
-    5. Join Us
+    6. JOIN US
 \*------------------------------------*/
 
 .center {
@@ -636,7 +655,7 @@ transform: translateX(0);
 }
 
 /*------------------------------------*\
-    6. Contact Us
+    7. Contact Us
 \*------------------------------------*/
 
 .contact {
@@ -761,7 +780,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 /*------------------------------------*\
-    7. Home
+    8. Home
 \*------------------------------------*/
 
 /*
@@ -836,7 +855,10 @@ div.flex-column div.cover-image img {
   color: rgba(255, 255, 255, .5);
 }
 
-/**************** Media Queries **********************/
+
+/*------------------------------------*\
+    9. MEDIA QUERIES
+\*------------------------------------*/
 
 @media screen and (max-width: 1000px) {
   

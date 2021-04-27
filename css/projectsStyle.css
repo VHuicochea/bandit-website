@@ -15,28 +15,20 @@
 
 
 -----------------------------------------------------------------------------------*/
-/*!
+/*
 
 // Contents
 // ------------------------------------------------>
 
  1.  Global Styles
- 2.  Navigation Bar
- 3.  Footer
- 3.	 About Us
- 4.	 Align
- 5.	 Grid
- 6.	 Background
- 7.	 Buttons
- 8. Forms
- 9. Header
- 10. Menu
- 11. Hero
- 12. Testimonial
- 13. Feature
- 14. Call To Action
- 15. Pricing Tables
- 16. Clients
+ 2.  Buttons
+ 3.  Navigation Bar
+ 4.  Footer
+ 5.	 Featurette
+ 6.	 Carousel
+ 7.	 Trailer
+ 8.	 Contributors
+ 
 
 /*------------------------------------*\
     1. GLOBAL STYLES
@@ -139,33 +131,6 @@ hr {
     color: #A5A5A5;
 }
 
-.btn-primary {
-  background-color: #222222;
-  color: #ffffff;
-  border: 1px solid #222222;
-  font-size: 20px;
-  padding: 4px 20px;
-  
-  border-radius: 8px;
-}
-
-.btn {
-    transition-duration: 0.4s;
-}
-
-/* Size can also be negative; see how it's smaller than the element */
-.raise:hover,
-.raise:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(-0.25em);
-}
-
-.btn:hover {
-    background-color: #ffffff;
-    color: #222222;
-    border: 1px solid #222222;
-}
-
 /* Aligning Text */
 .text--left {
     text-align: left !important;
@@ -260,10 +225,43 @@ hr {
       z-index: 2;
   }
 
+/*------------------------------------*\
+    2. BUTTONS
+\*------------------------------------*/
+  
+
+.btn-primary {
+  background-color: #222222;
+  color: #ffffff;
+  border: 1px solid #222222;
+  font-size: 20px;
+  padding: 4px 20px;
+  
+  border-radius: 8px;
+}
+
+.btn {
+    transition-duration: 0.4s;
+}
+
+/* Size can also be negative; see how it's smaller than the element */
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #222222;
+    border: 1px solid #222222;
+}
+
+
   
 
 /*------------------------------------*\
-    2. NAVIGATION BAR
+    3. NAVIGATION BAR
 \*------------------------------------*/
 
 .nav-link {
@@ -291,7 +289,7 @@ hr {
 }
 
 /*------------------------------------*\
-    3. FOOTER
+    4. FOOTER
 \*------------------------------------*/
 
 .footer-custom {
@@ -346,7 +344,7 @@ hr {
 }
 
 /*------------------------------------*\
-    3. FEATURETTE
+    5. FEATURETTE
 \*------------------------------------*/
 
 .featurette-heading {
@@ -367,7 +365,7 @@ hr {
 }
 
 /*------------------------------------*\
-    4. CAROUSEL
+    6. CAROUSEL
 \*------------------------------------*/
 
 /* Carousel base class */
@@ -401,7 +399,7 @@ hr {
 }
 
 /*------------------------------------*\
-    4. CONTRIBUTORS
+    7. Trailer
 \*------------------------------------*/
 
 .trailer {
@@ -410,7 +408,7 @@ hr {
 }
 
 /*------------------------------------*\
-    5. CONTRIBUTORS
+    8. CONTRIBUTORS
 \*------------------------------------*/
 
 .contributor {
